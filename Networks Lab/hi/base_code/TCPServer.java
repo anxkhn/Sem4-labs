@@ -18,13 +18,7 @@ public class TCPServer{
                 msg = in.readLine();
                 System.out.println("Recived: "+ msg);
 
-                char[] charArray = msg.toCharArray();
-                String reversedString = "";
                 
-                for (int i = charArray.length - 1; i >= 0; i--) {
-                    reversedString += charArray[i];
-                }
-                System.out.println("Reversed String: " + reversedString);
 
 
 
